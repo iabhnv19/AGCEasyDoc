@@ -110,11 +110,9 @@ The module declares `minSdk = 24`, `targetSdk = 36`, and `compileSdk = 36`. Andr
 ### Clone the repository
 
 ```bash
-git clone https://github.com/<your-account>/<your-repository>.git
+git clone https://github.com/iabhnv19/AGCEasyDoc.git
 cd AGCEasyDoc
 ```
-
-Replace the repository URL with the final GitHub URL after publishing the project.
 
 ### Open in Android Studio
 
@@ -475,25 +473,29 @@ docs: update build instructions
 test: cover document serialization
 ```
 
-## Release checklist
-
-Before publishing a GitHub release or distributing an APK:
-
-- [ ] Update `versionCode` and `versionName` in `app/build.gradle.kts`.
-- [ ] Run unit tests and the relevant Android tests.
-- [ ] Build and test the release variant.
-- [ ] Verify PDF export on a physical Android device.
-- [ ] Verify Android printing with an available print service.
-- [ ] Test saving, reopening, and deleting recent documents.
-- [ ] Test large and rotated images.
-- [ ] Confirm that no credentials or local files are included.
-- [ ] Configure release signing outside the public repository.
-- [ ] Review third-party licenses.
-- [ ] Create GitHub release notes describing user-visible changes.
-
 ## License
 
 AGC EasyDoc is released under the [GNU Affero General Public License v3.0 (AGPLv3)](LICENSE).
+
+## Developer
+
+Developed By
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/iabhnv19">
+        <img src="https://github.com/iabhnv19.png" width="80" height="80" alt="Abhinav's GitHub profile picture" />
+        <br />
+        <strong>Abhinav</strong>
+        <br />
+        @iabhnv19
+      </a>
+    </td>
+  </tr>
+</table>
+</div>
 
 <div align="center">
 

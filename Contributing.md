@@ -25,7 +25,7 @@ By participating in this project, you agree to abide by our community standards:
 ### Setting Up the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/AGCEasyDoc.git
+   git clone https://github.com/iabhnv19/AGCEasyDoc.git
    ```
 2. Open Android Studio and select **Open**, pointing to the `AGCEasyDoc` root directory.
 3. Allow Gradle to sync dependencies (`libs.versions.toml`).
